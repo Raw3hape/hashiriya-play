@@ -5,23 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="theme-color" content="#0b0b10" />
     <title>PROJECT HASHIRIYA — map blockout</title>
-    <script type="module" crossorigin src="./assets/index-CJf0YlDj.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D98LEo4s.css">
+    <link rel="preload" href="./fonts/noto-sans-jp/NotoSansJP-700-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/chakra-petch/ChakraPetch-400-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/dotgothic16/DotGothic16-400-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" crossorigin src="./assets/index-Br8Xay58.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Dr0_J_O3.css">
   </head>
   <body>
     <div id="app"></div>
     <div id="hud">
       <div id="hud-top-left">
         <div class="hud-title">PROJECT <span class="accent">HASHIRIYA</span></div>
-        <div class="hud-sub" id="hud-location">MINATO BAY — JAPAN</div>
-        <div class="hud-sub dim" id="hud-mode">FLY CAM</div>
+        <div class="hud-location" id="hud-location">MINATO BAY — JAPAN</div>
+        <div class="hud-mode" id="hud-mode">FLY CAM</div>
       </div>
       <div id="hud-bottom-left">
         <div class="hud-hint" id="hud-hint">
           WASD+QE move · drag look · SHIFT boost · C cruise · N/B next/prev road · P PS2 look · F wireframe · T top view · 1–5 time of day
         </div>
       </div>
-      <div id="hud-debug" class="hud-sub dim"></div>
+      <div id="hud-debug"></div>
       <div id="hud-validation" class="hidden"></div>
     </div>
   </body>
